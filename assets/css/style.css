@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 /*CSS variables*/
-:root{
+:root {
     --primary-font: "Nunito Sans", sans-serif;
     --secondary-font: "Cherry Bomb One", sans-serif;
     --background-color: #60435F; /*english violet*/
@@ -12,8 +12,10 @@
     --secondary-highlight-color: #A8DCD9; /*tiffany blue*/
 }
 
-/*test styles to check everything works properly*/
-body {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
+/*navigation*/
+.navbar-custom {
+   font-family: var(--secondary-font);
+   background-color: var(--background-color);
+   font-size: 30px;
 }
+
