@@ -27,6 +27,15 @@ p {
     font-size: 30px;
 }
 
+/*add a right-side border to list items, except the last one*/
+li {
+    border-right: 1px solid var(--secondary-highlight-color);
+}
+
+li:last-child {
+    border-right: none;
+}
+
 /*header*/
 #header {
     height: 800px;
