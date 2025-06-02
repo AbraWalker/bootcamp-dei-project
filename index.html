@@ -17,7 +17,7 @@
           integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
-    <nav id="navbar" class="navbar navbar-custom navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-custom navbar-expand-lg sticky-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo50x50.png" alt="Pride Flag Logo" class="logo" />
@@ -32,7 +32,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dictionary</a>
+                        <a class="nav-link" href="#dictionary">Dictionary</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Resources</a>
@@ -46,7 +46,7 @@
     </nav>
 
     <header id="header" class="container section">
-        <div class="col-12 col-xl-6 text-center text-xl-start">
+        <div class="col-12 col-xl-6 text-center text-xl-start row">
             <h1 class="display-3">LGBT ABCs</h1>
         </div>
         <div class="col-12 col-xl-6">
@@ -83,7 +83,8 @@
                 </button>
             </div>
         </div>
-        <div class="col-12 col-xl-6 text-center text-xl-start">
+
+        <div class="col-12 col-xl-6 text-center text-xl-start row">
             <p class="my-4">
                 <strong>LGBT ABCs is your guide to the LGBT community!</strong>
             </p>
@@ -94,12 +95,14 @@
         <!--Dictionary-->
         <section id="dictionary" class="container section">
             <div class="row">
-                <h2>LGBT Dictionary</h2>
+                <h2 id="dictionary-header">-`♡´- LGBT Dictionary -`♡´-</h2>
+                <p id="disctionary-description">There are a lot of terms used by the LGBT+ community to identify people, and sometimes they can get pretty confusing!</p>
                 <div class="col-12 col-xl-6">
                     <div class="accordion" id="accordion-one">
+                        <h3>Sexuality</h3>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-one" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-one" aria-expanded="false" aria-controls="collapseOne">
                                     Gay
                                 </button>
                             </h2>
@@ -169,9 +172,10 @@
                 </div>
                 <div class="col-12 col-xl-6">
                     <div class="accordion" id="accordion-two">
+                        <h3>Gender</h3>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gender-one" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-one" aria-expanded="false" aria-controls="collapseOne">
                                     Gender
                                 </button>
                             </h2>
@@ -213,11 +217,11 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-five" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-four" aria-expanded="false" aria-controls="collapseThree">
                                     Non-binary
                                 </button>
                             </h2>
-                            <div id="gender-five" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
+                            <div id="gender-four" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
                                 <div class="accordion-body">
                                     <strong>A term for people whose gender does not sit comfortably with common definitions of 'man' or 'woman'.</strong>
                                     Non-binary identities are varied and can include people who identify with some aspects of binary identity, while others reject

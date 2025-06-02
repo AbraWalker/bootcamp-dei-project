@@ -16,6 +16,10 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
 }
 
+p {
+    font-family: var(--primary-font);
+}
+
 /*navigation*/
 .navbar-custom {
    font-family: var(--secondary-font);
@@ -24,8 +28,8 @@ h1, h2, h3 {
 }
 
 /*header*/
-#header *{
-    text-align: center;
+#header {
+   justify-content: center;
 }
 
 #header h1 {
@@ -43,14 +47,26 @@ h1, h2, h3 {
 }
 
 /*dictionary*/
-#accordion {
+.accordion {
     margin: 2rem;
+    --bs-accordion-btn-color: var(--primary-color) !important;
+    --bs-accordion-btn-bg: var(--primary-highlight-color) !important;
+    --bs-accordion-btn-active-bg: var(--secondary-highlight-color) !important;
+    --bs-accordion-btn-active-color: var(--secondary-color) !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
 }
 
-#accordion-one h2{
-   color: var(--primary-color);
+/*removes border between the button and the content*/
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
 }
 
-#accordion-two h2 {
-    color: var(--secondary-color);
+/*centering the majority of the text to stand out*/
+#dictionary {
+    text-align: center;
+}
+
+/*aligning the text to the left within the accordion for readability*/
+.accordion-body {
+    text-align: left;
 }
