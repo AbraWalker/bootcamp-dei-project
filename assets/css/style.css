@@ -29,7 +29,7 @@ p {
 
 /*add a right-side border to list items, except the last one*/
 li {
-    border-right: 1px solid var(--secondary-highlight-color);
+    border-right: 1px solid var(--primary-highlight-color);
 }
 
 li:last-child {
