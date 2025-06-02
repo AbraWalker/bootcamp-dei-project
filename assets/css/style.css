@@ -57,7 +57,7 @@ li:last-child {
     background-color: rgb(255, 255, 255, .8);
     position: absolute;
     bottom: 25px;
-    width: 30%;
+    width: 40%;
     padding: 20px;
 }
 
@@ -65,6 +65,8 @@ li:last-child {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
+
+
 
 /*leave button*/
 .leave-button {
@@ -79,6 +81,7 @@ li:last-child {
 }
 
 .leave-button a {
+    font-family: var(--primary-font);
     font-size: 20px;
     text-decoration: none;
     
@@ -108,4 +111,29 @@ li:last-child {
 /*aligning the text to the left within the accordion for readability*/
 .accordion-body {
     text-align: left;
+    font-family: var(--primary-font);
+}
+
+/*footer*/
+#contact {
+    background-color: var(--background-color);
+    color: var(--primary-highlight-color);
+    padding-bottom: 3rem;
+}
+
+#contact h2{
+    color: var(--secondary-highlight-color);
+}
+
+#contact a {
+    font-weight: bold;
+    color: white;
+}
+
+#mail {
+    background-color: var(--background-color);
+    border: 2px white;
+    color: var(--primary-highlight-color);
+    padding: 5px;
+    text-align: center;
 }
