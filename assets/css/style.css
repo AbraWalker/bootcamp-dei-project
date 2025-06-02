@@ -12,6 +12,10 @@
     --secondary-highlight-color: #A8DCD9; /*tiffany blue*/
 }
 
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+}
+
 /*navigation*/
 .navbar-custom {
    font-family: var(--secondary-font);
@@ -19,9 +23,18 @@
    font-size: 30px;
 }
 
-#header h1{
-    font-family: var(--secondary-font);
+/*header*/
+#header *{
+    text-align: center;
+}
+
+#header h1 {
     color: var(--primary-color);
+}
+
+#header p {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
 }
 
 .section {
@@ -29,6 +42,15 @@
     margin-bottom: 2.5rem;
 }
 
-#dictionary {
+/*dictionary*/
+#accordion {
+    margin: 2rem;
+}
 
+#accordion-one h2{
+   color: var(--primary-color);
+}
+
+#accordion-two h2 {
+    color: var(--secondary-color);
 }

@@ -46,58 +46,195 @@
     </nav>
 
     <header id="header" class="container section">
-        <div class="row">
-            <div class="row">
-                <div class="col-12 col-xl-6 text-center text-xl-start">
-                    <h1 class="display-3">LGBT ABCs</h1>
-                    <p class="my-4">
-                        Test introduction paragraph.
-                    </p>
-                </div>
-                <div class="col-12 col-xl-6">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/images/pride-one.jpg" class="d-block w-100"
-                                     alt="Three people walking in a pride parade holding rainbow fans.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/pride-two.jpg" class="d-block w-100"
-                                     alt="Young boy holding a trans pride flag at a pride parade.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/pride-three.jpg" class="d-block w-100"
-                                     alt="Two women kissing with a handheld fan that says 'GAY AF'.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/pride-four.jpg" class="d-block w-100"
-                                     alt="A man in a rainbow dress and a silver crown.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/pride-five.jpg" class="d-block w-100"
-                                     alt="A performer at New York Pride.">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+        <div class="col-12 col-xl-6 text-center text-xl-start">
+            <h1 class="display-3">LGBT ABCs</h1>
+        </div>
+        <div class="col-12 col-xl-6">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/pride-one.jpg" class="d-block w-100"
+                             alt="Three people walking in a pride parade holding rainbow fans.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pride-two.jpg" class="d-block w-100"
+                             alt="Young boy holding a trans pride flag at a pride parade.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pride-three.jpg" class="d-block w-100"
+                             alt="Two women kissing with a handheld fan that says 'GAY AF'.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pride-four.jpg" class="d-block w-100"
+                             alt="A man in a rainbow dress and a silver crown.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pride-five.jpg" class="d-block w-100"
+                             alt="A performer at New York Pride.">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+        </div>
+        <div class="col-12 col-xl-6 text-center text-xl-start">
+            <p class="my-4">
+                <strong>LGBT ABCs is your guide to the LGBT community!</strong>
+            </p>
         </div>
     </header>
 
-    <section id="dictionary">
+    <main>
+        <!--Dictionary-->
+        <section id="dictionary" class="container section">
+            <div class="row">
+                <h2>LGBT Dictionary</h2>
+                <div class="col-12 col-xl-6">
+                    <div class="accordion" id="accordion-one">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-one" aria-expanded="true" aria-controls="collapseOne">
+                                    Gay
+                                </button>
+                            </h2>
+                            <div id="sexuality-one" class="accordion-collapse collapse" data-bs-parent="#accordion-one">
+                                <div class="accordion-body">
+                                    <strong>Refers to a man who is attracted to men.</strong>
+                                    Some non-binary people also identify with this term. Gay is also a generic term for lesbian and gay sexuality.
+                                    For example, some women define themselves as gay rather than lesbian.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-two" aria-expanded="false" aria-controls="collapseTwo">
+                                    Lesbian
+                                </button>
+                            </h2>
+                            <div id="sexuality-two" class="accordion-collapse collapse" data-bs-parent="#accordion-one">
+                                <div class="accordion-body">
+                                    <strong>Refers to a woman who is attracted to women.</strong>
+                                    Some non-binary people also indentify with this term.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-three" aria-expanded="false" aria-controls="collapseThree">
+                                    Bisexual
+                                </button>
+                            </h2>
+                            <div id="sexuality-three" class="accordion-collapse collapse" data-bs-parent="#accordion-one">
+                                <div class="accordion-body">
+                                    <strong>Refers to someone who is attracted to more than one gender.</strong>
+                                    Bisexual people may describe themselves with a variety of terms, including bisexual, pansexual, or simply queer.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-four" aria-expanded="false" aria-controls="collapseThree">
+                                    Pansexual
+                                </button>
+                            </h2>
+                            <div id="sexuality-four" class="accordion-collapse collapse" data-bs-parent="#accordion-one">
+                                <div class="accordion-body">
+                                    <strong>Refers to a person whose attraction towards others doesn’t regard sex or gender.</strong>
+                                    Usually this term falls under the 'bisexual' umbrella, though some people believe it is important to make a distinction
+                                    between the two terms.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sexuality-five" aria-expanded="false" aria-controls="collapseThree">
+                                    Asexual
+                                </button>
+                            </h2>
+                            <div id="sexuality-five" class="accordion-collapse collapse" data-bs-parent="#accordion-one">
+                                <div class="accordion-body">
+                                    <strong>A person who does not experience sexual attraction.</strong>
+                                    Some asexual people experience romantic attraction, while others don't. These people may also refer to themselves with
+                                    other sexuality terms, like gay or lesbian, to describe their romantic attractions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="accordion" id="accordion-two">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gender-one" aria-expanded="true" aria-controls="collapseOne">
+                                    Gender
+                                </button>
+                            </h2>
+                            <div id="gender-one" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
+                                <div class="accordion-body">
+                                    <strong>A person's innate sense of ebing a man, woman, non-binary, or another gender.</strong>
+                                    Gender norms, roles and behaviours exist that are typically associated with being a woman, girl, man or boy.
+                                    They are often expressed in terms of masculinity and femininity, and these roles and norms vary across cultures.
+                                    Usually, a person's gender is assumed from the sex they were assigned at birth.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-two" aria-expanded="false" aria-controls="collapseTwo">
+                                    Cisgender
+                                </button>
+                            </h2>
+                            <div id="gender-two" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
+                                <div class="accordion-body">
+                                    <strong>Someone whose gender matches the sex they were assigned at birth.</strong>
+                                    For example, a cisgendered woman is someone who was born female and continues to live and identify as a woman.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-three" aria-expanded="false" aria-controls="collapseThree">
+                                    Transgender
+                                </button>
+                            </h2>
+                            <div id="gender-three" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
+                                <div class="accordion-body">
+                                    <strong>A term to describe people whose gender is not usually associated with the sex they were assigned at birth.</strong>
+                                    Transgender can also be used as an umbrella term for other gender descriptors, like non-binary, agender, transwoman, transman,
+                                    and genderqueer. Depending on their expression, transgender people usually use "she/her" or "he/him" pronouns.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gender-five" aria-expanded="false" aria-controls="collapseThree">
+                                    Non-binary
+                                </button>
+                            </h2>
+                            <div id="gender-five" class="accordion-collapse collapse" data-bs-parent="#accordion-two">
+                                <div class="accordion-body">
+                                    <strong>A term for people whose gender does not sit comfortably with common definitions of 'man' or 'woman'.</strong>
+                                    Non-binary identities are varied and can include people who identify with some aspects of binary identity, while others reject
+                                    them entirely. Non-binary people commonly use "they/them" pronouns.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <section id="dictionary">
     </section>
 
     <section id="resources">
-
     </section>
 
     <!--Bootstrap JS-->
