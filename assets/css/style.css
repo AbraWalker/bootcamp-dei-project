@@ -114,11 +114,37 @@ li:last-child {
     font-family: var(--primary-font);
 }
 
+/*DEI section*/
+#dei-school {
+    padding-bottom: 1rem;
+}
+
+#school-box {
+    border: 3px dashed var(--secondary-highlight-color);
+}
+
+#school-box p {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+#dei-work {
+    padding-bottom: 1rem;
+}
+#work-box {
+    border: 3px dashed var(--primary-highlight-color);
+}
+
+#work-box p {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
 /*footer*/
 #contact {
     background-color: var(--background-color);
     color: var(--primary-highlight-color);
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 #contact h2{
@@ -128,12 +154,4 @@ li:last-child {
 #contact a {
     font-weight: bold;
     color: white;
-}
-
-#mail {
-    background-color: var(--background-color);
-    border: 2px white;
-    color: var(--primary-highlight-color);
-    padding: 5px;
-    text-align: center;
 }
