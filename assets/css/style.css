@@ -12,12 +12,17 @@
     --secondary-highlight-color: #A8DCD9; /*tiffany blue*/
 }
 
-h1, h2, h3 {
-    font-family: var(--secondary-font);
+body {
+    background-color: white;
 }
 
-p {
-    font-family: var(--primary-font);
+.dark-mode {
+    background-color: orange;
+    color: lightgray;
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
 }
 
 /*navigation*/
@@ -71,7 +76,7 @@ li:last-child {
 /*leave button*/
 .leave-button {
     position: sticky;
-    width: 7.5%;
+    width: 10%;
     height: 10%;
     position: sticky;
     bottom: 8px;
@@ -84,7 +89,6 @@ li:last-child {
     font-family: var(--primary-font);
     font-size: 20px;
     text-decoration: none;
-    
     color: var(--primary-highlight-color);
 }
 
@@ -140,6 +144,17 @@ li:last-child {
     color: var(--primary-color);
 }
 
+/*resources*/
+#resources h2{
+    color: var(--secondary-highlight-color);
+}
+
+#resources a {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
 /*footer*/
 #contact {
     background-color: var(--background-color);
@@ -147,11 +162,3 @@ li:last-child {
     padding-bottom: 1rem;
 }
 
-#contact h2{
-    color: var(--secondary-highlight-color);
-}
-
-#contact a {
-    font-weight: bold;
-    color: white;
-}
