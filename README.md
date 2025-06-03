@@ -22,7 +22,7 @@ They seek straightforward information and tips presented in a clear, organised f
 The focus is on clear communication through effective use of HTML and CSS, utilising Bootstrap for layout and design.
 
 ## CONTENTS
-* [LGBT ABCs](#bootcamp-diversity-project)
+- [LGBT ABCs](#bootcamp-diversity-project)
 - [Introduction](#INTRODUCTION)
 - [Contents](#CONTENTS)
 - [User Stories](#USER-STORIES)
@@ -34,6 +34,7 @@ The focus is on clear communication through effective use of HTML and CSS, utili
 - [Features](#FEATURES)
 - [Tech](#TECH)
 - [Testing](#TESTING)
+- [Improvements](#IMPROVEMENTS)
 - [Sources and References](#SOURCE)
 
 ## USER STORIES
@@ -48,6 +49,11 @@ User stories are further explored in the project's dedicated board.
 - As a user, I want to be able to access this site on any device, so I can share it to other interested users.
 
 ## DESIGN
+
+With the user stories in mind, I wanted to design a fun and approachable looking website suitable for all ages to access and use if they wish. <br/>
+In my opinion, the way to make my site fit those criteria was to use brighter colours, bright and positive images, accessible language and readable but fun fonts. <br/>
+
+
 ## COLOURS
 
 ![Colour](/docs/colour-scheme.png)
@@ -144,6 +150,8 @@ Version Control: Git and GitHub <br/>
 Wireframe: Balsamiq <br/>
 AI (Debugging): Microsoft CoPilot <br/>
 
+AI was used in my project to assist with a bug in my card layout.
+
 ## TESTING
 
 Python 3.9 for site previews during development. <br/>
@@ -152,6 +160,33 @@ Python 3.9 for site previews during development. <br/>
 
 ![HTML Validation](docs/html-validation.png)
 ![CSS Validation](docs/css-validation.png)
+
+## IMPROVEMENTS
+
+There are a number of improvements and additions I would have made given more time.<br/>
+- Dark Mode: In the original plan for my site, I wanted to implement a dark mode using a desaturated version of my original and Bootstrap's dark class functionality.<br/>
+- Language options: I would have liked to add multiple language options; I selected fonts that could be used for multiple writing systems.
+- Mailing List with success pop-up: I spent a large portion of my development trying to implement a mailing list form that returned a pop-up window instead of redirecting
+users to a new page. Though I was able to get it working initially, it would ignore form validation. Following is a snippet of the code I intended to implement: <br/>
+```html
+<input id="email" name="email" type="email" required/>
+<button id="mail" type="submit" class="btn" onclick="return confirm('Thank You')">Join</button>
+```
+```
+<form id="mailingList" onsubmit="return alert("TEXT")">
+...html
+</form>
+
+<script>
+document.getElementById("mailingList").addEventListener("submit", function(event) {
+event.preventDefault(); //Stop form navigating to /submit
+const formData = new FormData(this);
+const email = formData.get(email);
+
+console.log("Email submitted:", email);
+});
+</script>
+```
 
 ## SOURCES AND REFERENCES
 
