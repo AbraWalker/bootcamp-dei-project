@@ -4,7 +4,7 @@ README.md
 
 ## INTRODUCTION
 
-![LGBT ABCs Banner](/docs/images/banner.png)
+![LGBT ABCs Banner](/docs/banner.png)
 
 
 My submission for my first individual project is [Name of Website], a website that uses HTML, CSS and Bootstrap
