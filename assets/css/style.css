@@ -180,7 +180,7 @@ h1, h2, h3 {
 /*media query : large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     .card {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }

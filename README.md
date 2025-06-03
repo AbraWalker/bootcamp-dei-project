@@ -35,6 +35,7 @@ The focus is on clear communication through effective use of HTML and CSS, utili
 - [Tech](#TECH)
 - [Testing](#TESTING)
 - [Improvements](#IMPROVEMENTS)
+- [Known Issues](#KNOWN ISSUES)
 - [Sources and References](#SOURCE)
 
 ## USER STORIES
@@ -187,6 +188,10 @@ console.log("Email submitted:", email);
 });
 </script>
 ```
+
+## KNOWN ISSUES
+
+Currently, there is an issue where there is a slight horizontal scroll on full-size monitors.
 
 ## SOURCES AND REFERENCES
 
