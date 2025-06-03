@@ -116,6 +116,8 @@ To make my dictionary eye-catching, I styled them to change colour when an eleme
 
 Bootstrap cards were also used in my website to highlight key points about DEI in the UK, add some images to the site, and provide further information.
 
+![Card](docs/card-example.png)
+
 ### Carousel
 
 The small photo gallery towards the end was created using Bootstrap carousel. I decided to use the autoplaying style of carousel, as the photos don't contain
@@ -151,6 +153,8 @@ Python 3.9 for site previews during development. <br/>
 ## SOURCES AND REFERENCES
 
 Dictionary definitions provided by <a href="https://www.stonewall.org.uk/resources/list-lgbtq-terms" target="_blank">Stonewall UK.</a> <br/>
+DEI information sourced from <a href="https://www.stonewall.org.uk/get-involved/campaign-with-us/dont-repeat-history-protect-lgbtq-inclusive-education/lgbtq-inclusive-education-everything-you-need-know" target="_blank">Stonewall UK</a>,  
+<a href="https://www.cipd.org/uk/knowledge/reports/inclusion-perspectives-lgbt/" target="_blank">CIPD</a> and <a href="https://labourlaws.co.uk/employment-law-and-lgbtq-rights/" target="_blank">Labour Laws.</a><br/>
 All images sourced from <a href="https://www.pexels.com/" target="_blank">Pexels.</a> <br/>
 All icons sourced from <a href="https://icon-sets.iconify.design/" target="_blank">Iconify.</a> <br/>
 Features sourced from <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap 5 documentation.</a> <br/>
