@@ -149,3 +149,8 @@ Python 3.9 for site previews during development. <br/>
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation</a> 
 
 ## SOURCES AND REFERENCES
+
+Dictionary definitions provided by <a href="https://www.stonewall.org.uk/resources/list-lgbtq-terms" target="_blank">Stonewall UK.</a> <br/>
+All images sourced from <a href="https://www.pexels.com/" target="_blank">Pexels.</a> <br/>
+All icons sourced from <a href="https://icon-sets.iconify.design/" target="_blank">Iconify.</a> <br/>
+Features sourced from <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap 5 documentation.</a> <br/>
