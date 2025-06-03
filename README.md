@@ -39,7 +39,7 @@ The focus is on clear communication through effective use of HTML and CSS, utili
 - [Sources and References](#SOURCE)
 
 ## USER STORIES
-User stories are further explored in the project's dedicated board.
+User stories are further explored in the project's dedicated <a href="https://github.com/users/AbraWalker/projects/6" target="_blank">board.</a>
 
 - As a visitor, I want the webpage to be easy to navigate, so I can look up specific information about the topics I’m interested in.
 - As a person unfamiliar with the community, I want a basic introduction to keywords and phrases used to describe LGBTQ+ people.
@@ -48,6 +48,8 @@ User stories are further explored in the project's dedicated board.
 - As a person who works in HR, I want a clear list of guidelines and practices to make an environment comfortable for LGBTQ+ staff.
 - As an ally, I want resources with information to support LGBTQ+ people and learn more about LGBTQ+ rights.
 - As a user, I want to be able to access this site on any device, so I can share it to other interested users.
+- As an LGBTQ+ person, I would like the option to keep updated with LGBT+ news.
+- As the site owner, I want the site to be as accessible as possible to a wide number of potential users.
 
 ## DESIGN
 
