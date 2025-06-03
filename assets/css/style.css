@@ -33,11 +33,11 @@ h1, h2, h3 {
 }
 
 /*add a right-side border to list items, except the last one*/
-li {
+#navigation li {
     border-right: 1px solid var(--primary-highlight-color);
 }
 
-li:last-child {
+#navigation li:last-child {
     border-right: none;
 }
 
@@ -160,5 +160,20 @@ li:last-child {
     background-color: var(--background-color);
     color: var(--primary-highlight-color);
     padding-bottom: 1rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+#socials svg {
+    color: var(--secondary-highlight-color);
+}
+
+#socials li {
+    border: none;
 }
 
