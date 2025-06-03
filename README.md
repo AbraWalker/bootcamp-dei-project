@@ -13,9 +13,28 @@ inform people who may know little about the subject.
 
 The live version of this project can be found <a href="https://abrawalker.github.io/bootcamp-dei-project/" target="blank">here.</a>
 
-## CONTENTS
+Our brief/criteria for this project was:
 
-## DESIGN
+- Create a website about diversity and inclusion. The user wants to gain a basic understanding of diversity and inclusion in the workplace or educational environment. 
+They seek straightforward information and tips presented in a clear, organised format.
+
+- The site owner aims to create a visually appealing, easy-to-navigate webpage that introduces diversity and inclusion concepts and offers basic guidance on how to implement these practices. 
+The focus is on clear communication through effective use of HTML and CSS, utilising Bootstrap for layout and design.
+
+## CONTENTS
+* [LGBT ABCs](#bootcamp-diversity-project)
+- [Introduction](#INTRODUCTION)
+- [Contents](#CONTENTS)
+- [User Stories](#USER-STORIES)
+- [Design](#DESIGN)
+- [Colours](#COLOURS)
+- [Fonts](#FONTS)
+- [Images](#IMAGES)
+- [Wireframes](#WIREFRAMES)
+- [Features](#FEATURES)
+- [Tech](#TECH)
+- [Testing](#TESTING)
+- [Sources and References](#SOURCE)
 
 ## USER STORIES
 User stories are further explored in the project's dedicated board.
@@ -28,11 +47,85 @@ User stories are further explored in the project's dedicated board.
 - As an ally, I want resources with information to support LGBTQ+ people and learn more about LGBTQ+ rights.
 - As a user, I want to be able to access this site on any device, so I can share it to other interested users.
 
+## DESIGN
 ## COLOURS
-![Colour](/docs/Normal Colour Scheme.png)
+
+![Colour](/docs/colour-scheme.png)
 
 Shown above is my selected colour scheme, as displayed on Coolors.
+I used a blue and pink colour scheme, as it was a colour scheme relevant to the content.
+
+![Dark Colours](/docs/dark-scheme.png)
+
+If I had more time with my project, I would implement these colours as a darker option for the site's design.
 
 ## FONTS
 
-The fonts I have chosen are Cherry Bomb One and Nunito Sans.
+[Cherry Bomb One](https://fonts.google.com/specimen/Cherry+Bomb+One?lang=ja_Hira) for headings.
+[Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?categoryFilters=Sans+Serif:%2FSans%2FRounded) for the body,
+
+## IMAGES
+
+All images and icons were sourced from Pexels and Iconify.
+
+Sexuality Photo by Rosemary Ketchum
+Gender Photo by RDNE Stock Project 
+Pride-One by Rosemary Ketchum
+Pride-Two by Rosemary Ketchum
+Pride-Three by RDNE Stock Project
+Pride-Four by Eduardo González
+Pride-Five by Elvis Yang
+flower-pride by Antonio Herrera Palacios
+header by Gotta Be Worth It
+pride-uk by Peter Muscutt
+lgbt-work  by Ivan Samkov
+lgbt-school by Anastasiya Badun
+
+## WIREFRAMES
+
+![Header](docs/header.png)
+
+![Dictionary](docs/dictionary.png)
+
+![Footer](docs/footer.png)
+
+I made many changes to the design of the website as developement went on. Specific features will be discussed in the <a href="#FEATURES">features</a> section.
+
+## FEATURES
+
+### Navigation and Hero
+
+I added a navigation bar to the top of the page as I knew I wanted to make a one-page website, and quick access to the sections would make
+the site easier to use for people who want specific information.
+
+The navigation bar I used is a Bootstrap component with a dropdown menu for the DEI section.
+
+### Dictionary
+
+I used Bootstrap's accordion element to create a dictionary for users who might be unfamiliar with certain terminology used to refer to the
+LGBT community. Accordions are a good way to display information per user request; users have to select a specific element that they want to view and irrelevant
+text is hidden. By doing this, the user is not overwhelmed with a wall of text that might not be relevant to what they are looking for.
+
+![Site Dictionary](docs/site-dictionary.png)
+
+To make my dictionary eye-catching, I styled them to change colour when an element is clicked on.
+
+![Active Dictionary Element](docs/colour-change-example.png)
+
+### Cards
+
+Bootstrap cards were also used in my website to highlight key points about DEI in the UK, add some images to the site, and provide further information.
+
+### Carousel
+
+The small photo gallery towards the end was created using Bootstrap carousel. I decided to use the autoplaying style of carousel, as the photos don't contain
+information or anything to be read, so the user shouldn't need to scroll through the gallery themselves. However, there are arrows bordering the carousel, enabling
+the user to scroll through the gallery at their own pace too.
+
+![Carousel](docs/carousel.png)
+
+## TECH
+
+## TESTING
+
+## SOURCES AND REFERENCES
