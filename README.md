@@ -68,18 +68,18 @@ If I had more time with my project, I would implement these colours as a darker 
 
 All images and icons were sourced from Pexels and Iconify.
 
-Sexuality Photo by Rosemary Ketchum
-Gender Photo by RDNE Stock Project 
-Pride-One by Rosemary Ketchum
-Pride-Two by Rosemary Ketchum
-Pride-Three by RDNE Stock Project
-Pride-Four by Eduardo González
-Pride-Five by Elvis Yang
-flower-pride by Antonio Herrera Palacios
-header by Gotta Be Worth It
-pride-uk by Peter Muscutt
-lgbt-work  by Ivan Samkov
-lgbt-school by Anastasiya Badun
+Sexuality Photo by Rosemary Ketchum <br/>
+Gender Photo by RDNE Stock Project <br/>
+Pride-One by Rosemary Ketchum <br/>
+Pride-Two by Rosemary Ketchum <br/>
+Pride-Three by RDNE Stock Project <br/>
+Pride-Four by Eduardo González <br/>
+Pride-Five by Elvis Yang <br/>
+flower-pride by Antonio Herrera Palacios <br/>
+header by Gotta Be Worth It <br/>
+pride-uk by Peter Muscutt <br/>
+lgbt-work  by Ivan Samkov <br/>
+lgbt-school by Anastasiya Badun <br/>
 
 ## WIREFRAMES
 
@@ -124,8 +124,28 @@ the user to scroll through the gallery at their own pace too.
 
 ![Carousel](docs/carousel.png)
 
+### Leave Button
+
+Inspired by the LGBT Foundation website, I added a "leave this page" button to the site. This is to provide a serivce to people who may need to hide their use of
+the site quicker than minimising the screen or clicking a new tab. Though it is not techinically very interesting, I felt it was a necessary inclusion.
+
+### Links to Phone Numbers
+
+I had a similar thought process when adding telephone number links. For people browsing on their phones who may need immediate advice or support, I added 
+telephone links that forward to a device's call functionality.
+
 ## TECH
 
+Languages: HTML and CSS <br/>
+Libraries: Bootstrap 5 <br/>
+Version Control: Git and GitHub <br/>
+Wireframe: Balsamiq <br/>
+AI (Debugging): Microsoft CoPilot <br/>
+
 ## TESTING
+
+Python 3.9 for site previews during development. <br/>
+<a href="https://validator.w3.org/" target="_blank">HTML Validation</a>
+<a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation</a> 
 
 ## SOURCES AND REFERENCES
