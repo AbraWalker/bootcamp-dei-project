@@ -150,6 +150,9 @@ Python 3.9 for site previews during development. <br/>
 <a href="https://validator.w3.org/" target="_blank">HTML Validation</a>
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation</a> 
 
+![HTML Validation](docs/html-validation.png)
+![CSS Validation](docs/css-validation.png)
+
 ## SOURCES AND REFERENCES
 
 Dictionary definitions provided by <a href="https://www.stonewall.org.uk/resources/list-lgbtq-terms" target="_blank">Stonewall UK.</a> <br/>
